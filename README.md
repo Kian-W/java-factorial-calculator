@@ -1,5 +1,6 @@
 # java-factorial-calculator
 A factorial calculator written in Java.
+Run the program with a given number and the factorial to the number will be outputed! 
 
 # setup
 ```
