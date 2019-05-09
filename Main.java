@@ -1,11 +1,18 @@
 public class Main {
 	public static void main(String[] args) {
 
-		// Number to create factorial of
-		double number = Double.valueOf(args[0]);
+		double number = 0;
 
-		// Print factorial
-		System.out.println(Calculate(number));
+		try {
+			// Number to create factorial of
+			number = Double.valueOf(args[0]);
+		} catch(Exception e) {
+			System.out.println("Usage: java Main [double]");
+			System.exit(-1);
+		}
+
+			// Print factorial
+			System.out.println(Calculate(number));
 	}
 
 	// Function to calculate factorial
