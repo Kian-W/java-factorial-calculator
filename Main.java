@@ -20,10 +20,9 @@ public class Main {
 		double factorial = 1;
 
 		// Times the factorial by i for each loop
-		for(int i = 1; i <= num; i++) {
+		for(int i = 1; i <= num; i++) 
 			factorial *= i;
-		}
-
+		
 		return factorial;
 	}
 }
