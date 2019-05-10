@@ -5,6 +5,7 @@ Run the program with a given number and the factorial to the number will be outp
 # setup
 ```
 $ git clone https://github.com/Kian-W/java-factorial-calculator
+$ cd java-factorial-calculator
 $ javac Main.java
 $ java Main [args]
 ``` 
